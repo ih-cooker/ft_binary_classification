@@ -15,5 +15,5 @@ Uniprotからのデータダウンロードの手順は prepare_data.sh にあ�
 # Requirement
 
 Python 3.6.9
-
 sentencepiece   0.1.96
+scikit-learn     0.24.2
