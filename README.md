@@ -18,7 +18,6 @@ Uniplotでは配列の特徴は「FT   DNA_BIND」のように記載されてい
 ```
 $ wget https://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
 $ gunzip uniprot_sprot.dat.gz
-
 ```
 
 その後、以下を実行してください。
