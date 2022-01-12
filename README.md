@@ -1,4 +1,3 @@
-# study_bioinfo
 # ft_binary_classification
 Uniprot https://www.uniprot.org/ は、タンパク質の配列に特徴や機能のデータを付加して整理されたデータベースです。無料で公開されたデータを使い、タンパク質の網羅的な分析に使用します。
 
