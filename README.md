@@ -12,14 +12,16 @@ Uniprot https://www.uniprot.org/ は、タンパク質の配列に特徴や機�
 
 # Run
 以下でUniprotからのデータをダウンロードし、解凍します。
-'''
-sh prepare_data.sh
-'''
+
+```
+$ sh prepare_data.sh
+```
 
 その後、以下を実行してください。
-'''
-python ft_binary_classification.py uniprot_sprot.dat
-'''
+
+```
+$ python ft_binary_classification.py uniprot_sprot.dat
+```
 
 
 # Requirement
