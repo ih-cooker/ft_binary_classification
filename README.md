@@ -10,10 +10,16 @@ Uniprot https://www.uniprot.org/ は、タンパク質の配列に特徴や機�
 
 評価の結果からもホメオドメインの配列を重要視している印象です。
 
-# Note 
-Uniprotからのデータダウンロードの手順は prepare_data.sh にあります。　　
+# Run
+以下でUniprotからのデータをダウンロードし、解凍します。
+'''
+sh prepare_data.sh
+'''
 
-プログラムを実行する際に、解凍したdatファイルをコマンドライン引数で渡してください。　　
+その後、以下を実行してください。
+'''
+python ft_binary_classification.py uniprot_sprot.dat
+'''
 
 
 # Requirement
